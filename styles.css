@@ -1,0 +1,67 @@
+/*Style for all the headings.*/
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Georgia", serif;
+}
+
+/*Style for new quote.*/
+#add_div {
+	font-weight: bold;
+	font-family: "Georgia", serif;
+	text-align: center;
+}
+
+/*Style for show quotes.*/
+#show_div {
+border-style: solid;
+border-color: black;
+border-width: 1px;
+border-radius: 10px;
+min-height: 30px;
+overflow: hidden;
+}
+
+/*Style for left part of show_div.*/
+#show_left {
+float: left;
+width: 88%;
+}
+
+/*Style for quote.*/
+#show_quote {
+font-style: italic;
+font-family: "Georgia", serif;
+float: left;
+}
+
+/*Style for author.*/
+#show_author {
+font-family: "Georgia", serif;
+float: right;
+clear: both;
+}
+
+/*Style for right part of show_div.*/
+#show_right {
+	float: right;
+	width: 10%;
+}
+
+/*Style for rating.*/
+#show_rating {
+	float: left;
+	}
+
+/*Style for flag.*/
+#show_flag {
+float: right;
+}
+
+/*Style for vote.*/
+#show_vote {
+	margin-left: 30%;
+    margin-right: 50%;
+}
